@@ -45,14 +45,17 @@ $(function(){
     $('.language-item').eq(clickIndex).addClass('active');
   });
 
-  $('.header-right-iphone').hover(
-    function(){
+  $('.menu-icon').click(function(){
+    var $menuicon = $('.menu-icon');
+    if($menuicon.hasClass('menu-click')){
+      $menuicon.removeClass('menu-click');
       $('.menu-list').fadeIn();
-    },
-    function(){
+    }else{
+      $menuicon.addClass('menu-click');
       $('.menu-list').fadeOut();
     }
-  );
+  });
+
 
 
 });
