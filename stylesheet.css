@@ -357,7 +357,7 @@ textarea{
   height:150px;
 }
 .contact-form{
-  text-align: center;
+  text-align: left;
 }
 .btn-contact{
   font-family: sans-serif,'Dosis';
@@ -370,6 +370,7 @@ textarea{
   transition:all .3s;
   margin:10px 0;
   padding:15px 35px;
+  display: block;
 }
 
 /* footer */
